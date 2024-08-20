@@ -1,0 +1,12 @@
+.container * {
+  all: unset;
+  box-sizing: border-box;
+}
+
+.container input, .container button {
+  display: inline-block;
+}
+
+.container input {
+  border-bottom: 1px solid #ccc;
+}

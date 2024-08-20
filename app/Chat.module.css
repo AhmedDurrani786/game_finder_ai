@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Roboto:wght@400;700&display=swap');
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #10172e;
+  color: #333;
+  font-family: 'bookman old style', sans-serif;
+}
+
+.title {
+  font-style: 'Bungee+Shade';
+  display: "swap";
+  text-align: center;
+  color: #8ff008;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.chatWindow {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  background-color: #0f233d;
+}
+
+.message {
+  max-width: 80%;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+.userMessage {
+  background-color: #a4d2e4;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.aiMessage {
+  background-color: #b6d598;
+  align-self: flex-start;
+}
+
+.form {
+  display: flex;
+  background-color: #0a0900;
+  padding: 10px;
+  border: 2px solid #8b8b8b;
+  border-radius: 8px;
+}
+
+.input {
+  flex-grow: 1;
+  padding: 12px;
+  border: 1px solid #138385;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: 'bookman old style', sans-serif;
+}
+
+.button {
+  padding: 12px 20px;
+  margin-left: 10px;
+  background-color: #8a0808;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'VT323', monospace;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #581605;
+}
+
+.loadingIndicator {
+  text-align: center;
+  color: #fff7f7;
+  padding: 10px;
+  font-style: italic;
+}
+
+.errorMessage {
+  background-color: #ffcccb;
+  color: #d8000c;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 4px;
+}
